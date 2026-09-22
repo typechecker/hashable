@@ -90,7 +90,7 @@ library
     , text        >=2.0.2    && <2.2
 
   if impl(ghc >=10)
-    build-depends: ghc-bignum
+    build-depends: ghc-bignum ^>=1.4
 
   if impl(ghc <9.8)
     build-depends: ghc-prim
